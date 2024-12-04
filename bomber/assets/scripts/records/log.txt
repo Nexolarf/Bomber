@@ -1,0 +1,11 @@
+24|333333333
+18|Ggg
+8|null
+6|fffffff
+6|fffffff
+6|fffffff
+6|fffffff
+0|333333333
+0|333333333
+0|333333333
+ArrayArray

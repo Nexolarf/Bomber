@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta Cache-Control: max-age=0 />
+    <title>Blocker</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+        canvas {
+            width: 100%;
+        }
+        @font-face {
+            font-family: 'minecraft';
+            src: url('assets/fonts/minecraft.ttf');
+        }
+        .fontPreload {
+            font-family: 'minecraft';
+            position: absolute;
+            left: -100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fontPreload">.</div>
+    <!-- Phaser -->
+    <script src="assets/scripts/phaser.js"></script>
+    <!-- Game Script -->
+    <script src="assets/scripts/GameScene.js?v=prerelease1.0.0" id="script_js"></script>
+    <script src="assets/scripts/Block.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>
